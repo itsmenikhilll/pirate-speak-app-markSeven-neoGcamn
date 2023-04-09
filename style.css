@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    --primary-color: #422006;
+    --secondary-color: white;
+    --tertiary-color: black;
+}
+
+body{
+    font-family: cursive;
+    color: var(--secondary-color);
+    margin: 0;
+    padding: 0;background-image: url(/images/pirate.jpg);
+    background-size: cover;
+}
+
+header{
+    background-color: var(--primary-color) ;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid var(--tertiary-color);
+    opacity: 0.9;
+}
+
+.container-main{
+    max-width: 400px;
+    text-align: center;
+    margin: auto; 
+}
+
+.container-main p{
+    margin: 10px 0;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 1px solid var(--tertiary-color);
+    border-radius: 5px;
+}
+
+.input{
+    margin: 10px 0;
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid var(--tertiary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    opacity: 0.8;
+}
+.btn-submit{
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    font-family: inherit;
+    color: var(--secondary-color);
+
+}
+.btn-reset{
+    background-color: var(--primary-color);
+    padding: 10px 20px;
+    font-family: inherit;
+    color: var(--secondary-color);
+}
+.output{
+    margin: 10px 0;
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid var(--tertiary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    opacity: 0.8;
+}
+
+footer{
+    background-color: var(--primary-color) ;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid var(--tertiary-color);
+    opacity: 0.9;
+}
+footer h2{
+    margin: 0;
+}
+footer p{
+    margin: 0;
+}
