@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
 
 :root{
-    --primary-color: #422006;
+    --primary-color: black;
     --secondary-color: white;
     --tertiary-color: black;
 }
 
 body{
-    font-family: cursive;
+    font-family: 'Rubik Pixels', cursive;
     color: var(--secondary-color);
     margin: 0;
     padding: 0;background-image: url(/images/pirate.jpg);
