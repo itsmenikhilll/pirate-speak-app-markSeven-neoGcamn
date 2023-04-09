@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
 
 :root{
     --primary-color: black;
@@ -7,7 +7,7 @@
 }
 
 body{
-    font-family: 'Rubik Pixels', cursive;
+    font-family: 'Special Elite', cursive;
     color: var(--secondary-color);
     margin: 0;
     padding: 0;background-image: url(/images/pirate.jpg);
